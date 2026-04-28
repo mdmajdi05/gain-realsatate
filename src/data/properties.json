@@ -1,0 +1,225 @@
+{
+  "sections": [
+    {
+      "id": "properties",
+      "title": "Dwarka Apartments",
+      "description": "Handpicked premium properties just for you",
+      "items": [
+        {
+          "id": 1,
+          "title": "Luxury 3BHK Sea View Apartment",
+      "price": "₹1.8 Cr",
+      "oldPrice": "₹2.1 Cr",
+      "location": "Worli, Mumbai",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area": "1850 sq.ft",
+      "type": "Sale",
+      "status": "Hot Deal",
+      "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3",
+      "gallery": [
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+        "https://images.unsplash.com/photo-1523217582562-09d0def993a6"
+      ],
+      "features": ["Swimming Pool", "Gym", "Club House", "24/7 Security"],
+      "description": "Experience luxury living with panoramic sea views"
+    },
+    {
+      "id": 2,
+      "title": "Modern 2BHK Villa with Garden",
+      "price": "₹75 Lacs",
+      "location": "Gurgaon Sector 56",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area": "1350 sq.ft",
+      "type": "Sale",
+      "status": "New Launch",
+      "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3",
+      "gallery": [],
+      "features": ["Garden", "Parking", "Modular Kitchen"],
+      "description": "Perfect family home with modern amenities"
+    },
+    {
+      "id": 3,
+      "title": "Premium Office Space",
+      "price": "₹45,000/month",
+      "location": "Bandra Kurla Complex, Mumbai",
+      "area": "950 sq.ft",
+      "type": "Rent",
+      "status": "Premium",
+      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3",
+      "gallery": [],
+      "features": ["Conference Room", "Cafeteria", "Parking"],
+      "description": "Prime location office space for modern businesses"
+    },
+    
+    {
+      "id": 4,
+      "title": "Spacious 4BHK Penthouse",
+      "price": "₹3.5 Cr",
+      "location": "South Delhi",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area": "3500 sq.ft",
+      "type": "Sale",
+      "status": "Premium",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/759474774.jpg?k=73823b85ac1cda28714b707708e85fdad9532937342344a8c91638349109f3a3&o=",
+      "gallery": [],
+      "features": ["Private Terrace", "Jacuzzi", "Home Theater"],
+      "description": "Luxurious penthouse with top-notch amenities"
+    }
+      ]
+    },
+    {
+      "id": "dwarkaApartments",
+      "title": "Dwarka Expressway",
+      "description": "Handpicked premium properties on Dwarka Expressway",
+      "items": [
+        {
+          "id": 101,
+          "title": "M3M Capital - Luxury 3/4 BHK Apartments",
+    "price": "₹2.2 Cr Onwards",
+    "location": "Sector 113, Dwarka Expressway, Gurgaon",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area": "1665 - 2298 sq.ft",
+    "type": "Sale",
+    "status": "New Launch",
+    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
+    "gallery": [],
+    "features": ["Clubhouse", "Swimming Pool", "Gym", "24/7 Security", "Kids Play Area"],
+    "description": "Premium high-rise residences located on prime Dwarka Expressway location with modern lifestyle amenities."
+  },
+  {
+    "id": 102,
+    "title": "Godrej Meridian - Premium Apartments",
+    "price": "₹1.9 Cr Onwards",
+    "location": "Sector 106, Dwarka Expressway, Gurgaon",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area": "1366 - 2720 sq.ft",
+    "type": "Sale",
+    "status": "Ready to Move",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+    "gallery": [],
+    "features": ["Resort Style Pool", "Clubhouse", "Landscape Gardens", "Sports Area"],
+    "description": "Luxury living with resort-style amenities and seamless connectivity to Delhi and IGI Airport."
+  },
+  {
+    "id": 103,
+    "title": "ATS Triumph - Luxury Residences",
+    "price": "₹2.5 Cr Onwards",
+    "location": "Sector 104, Dwarka Expressway, Gurgaon",
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "area": "2290 - 3150 sq.ft",
+    "type": "Sale",
+    "status": "Premium",
+    "image": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea",
+    "gallery": [],
+    "features": ["Large Balconies", "Clubhouse", "Swimming Pool", "Jogging Track"],
+    "description": "Spacious luxury apartments with world-class construction quality by ATS."
+  },
+  {
+    "id": 104,
+    "title": "Shapoorji Pallonji Joyville",
+    "price": "₹1.2 Cr Onwards",
+    "location": "Sector 102, Dwarka Expressway, Gurgaon",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": "915 - 1360 sq.ft",
+    "type": "Sale",
+    "status": "Hot Deal",
+    "image": "https://www.yhataw.com/wp-content/uploads/2020/11/Pool-View-High-Res-01-1440px-960px.jpg",
+    "gallery": [],
+    "features": ["Podium Garden", "Clubhouse", "Kids Zone", "Security"],
+    "description": "Affordable luxury apartments with premium lifestyle amenities on Dwarka Expressway."
+  },
+  {
+    "id": 105,
+    "title": "Adani Oyster Grande",
+    "price": "₹2.1 Cr Onwards",
+    "location": "Sector 102, Dwarka Expressway, Gurgaon",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area": "1689 - 3188 sq.ft",
+    "type": "Sale",
+    "status": "Ready to Move",
+    "image": "https://www.adanirealty.com/-/media/project/realty/residential/gurugram/oyster-grande/carousel-images/outdoor/image-3.ashx",
+    "gallery": [],
+    "features": ["Luxury Clubhouse", "Swimming Pool", "Gym", "Multi-tier Security"],
+    "description": "Ultra-luxury apartments offering elegant lifestyle and premium construction quality."
+  }
+]
+}
+  ],
+
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Rahul Sharma",
+      "role": "Home Buyer",
+      "content": "GAIN Realstate helped me find my dream home within budget. Their team is extremely professional and supportive.",
+      "rating": 5,
+      "image": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Priya Patel",
+      "role": "Investor",
+      "content": "Best real estate agency in town. They provided excellent investment options with great returns.",
+      "rating": 5,
+      "image": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Amit Verma",
+      "role": "Tenant",
+      "content": "I had a wonderful experience renting through GAIN Realstate. The process was smooth and hassle-free.",
+      "rating": 4,
+      "image": "https://randomuser.me/api/portraits/men/56.jpg"
+    } 
+  ],
+  "services": [
+    {
+      "id": 1,
+      "title": "Property Sales",
+      "description": "Find your perfect home with our extensive property listings",
+      "icon": "🏠",
+      "color": "from-blue-500 to-blue-600"
+    },
+    {
+      "id": 2,
+      "title": "Rental Services",
+      "description": "Premium rental properties for every budget and need",
+      "icon": "🔑",
+      "color": "from-green-500 to-green-600"
+    },
+    {
+      "id": 3,
+      "title": "Property Management",
+      "description": "Complete property management solutions for owners",
+      "icon": "📊",
+      "color": "from-purple-500 to-purple-600"
+    },
+    {
+      "id": 4,
+      "title": "Legal Assistance",
+      "description": "Expert legal guidance for all property transactions",
+      "icon": "⚖️",
+      "color": "from-red-500 to-red-600"
+    }
+  ],
+  "company": {
+    "name": "GAIN Realstate Consultants",
+    "phone": "+91 9891902115,  +91 9111002323",
+    "email": "gainrealestate1@gmail.com",
+    "address": "Dwarka & Dwarka Expressway, New Delhi",
+    "social": {
+      "facebook": "#",
+      "twitter": "#",
+      "instagram": "#",
+      "linkedin": "#"
+    }
+  }
+}

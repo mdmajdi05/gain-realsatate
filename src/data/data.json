@@ -1,0 +1,726 @@
+{
+  "sections": [
+    {
+      "id": "properties",
+      "title": "Dwarka Projects",
+      "description": "Handpicked premium properties just for you",
+      "items": [
+        {
+          "id": 5,
+          "title": "₹ 2.3 - 2.75 Cr 3 BHK Apartments for Sale in Dwarka",
+          "price": "₹2.3 - 2.75 Cr",
+          "location": "Dwarka",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": "1750 sq.ft.(162.58 sq.m.)",
+          "type": "Sale",
+          "status": "New Launch",
+          "image": "/dwarka-pro/site-main.jpeg",
+          "gallery": [
+            "/dwarka-pro/site-main.jpeg",
+            "/dwarka-pro/site1.jpeg",
+            "/dwarka-pro/site2.jpeg",
+            "/dwarka-pro/site3.jpeg",
+            "/dwarka-pro/site4.jpeg",
+            "/dwarka-pro/site5.jpeg",
+            "/dwarka-pro/site6.jpeg",
+            "/dwarka-pro/site7.jpeg"
+          ],
+          "features": [
+            "Clubhouse",
+            "Swimming Pool",
+            "Gym",
+            "24/7 Security",
+            "Kids Play Area"
+          ],
+          "description": "Premium high-rise residences located on prime Dwarka Expressway location with modern lifestyle amenities."
+        },
+        {
+          "id": 210,
+          "title": "Best Paradise",
+          "price": "₹4.35 Cr",
+          "location": "Sector 19, Dwarka, Delhi",
+          "bedrooms": 4,
+          "bathrooms": 4,
+          "area": "On Request",
+          "type": "Sale",
+          "status": "Available",
+          "image": "dwarka-pro/BestParadise/main-best-paradise.jpeg",
+          "gallery": [],
+          "features": [
+            "Study Room",
+            "4 Toilets"
+          ],
+          "description": "4 BHK plus study apartment with 4 toilets in Sector 19."
+        },
+        {
+          "id": 211,
+          "title": "Lords 3b/d",
+          "price": "₹2.90 Cr",
+          "location": "Sector 19, Dwarka, Delhi",
+          "bedrooms": 3,
+          "bathrooms": 2,
+          "area": "On Request",
+          "type": "Sale",
+          "status": "Available",
+          "image": "dwarka-pro/Lords-3b/lords-main3b.jpeg",
+          "gallery": [],
+          "features": [
+            "2 Toilets"
+          ],
+          "description": "3 BHK apartment with 2 toilets in Sector 19."
+        },
+        {
+          "id": 212,
+          "title": "Lords 4b/d",
+          "price": "₹4.00 Cr",
+          "location": "Sector 19, Dwarka, Delhi",
+          "bedrooms": 4,
+          "bathrooms": 4,
+          "area": "On Request",
+          "type": "Sale",
+          "status": "Available",
+          "image": "dwarka-pro/Lords-4b/lords-main4b.jpeg",
+          "gallery": [],
+          "features": [
+            "4 Toilets"
+          ],
+          "description": "4 BHK apartment with 4 toilets in Sector 19."
+        },
+        
+        
+        {
+          "id": 201,
+          "title": "Princess Park",
+          "price": "₹3.48 Cr",
+          "location": "Sector 6, Dwarka, Delhi",
+          "bedrooms": 3,
+          "bathrooms": 4,
+          "area": "On Request",
+          "type": "Sale",
+          "status": "Available",
+          "image": "dwarka-pro/PrincessPark/main-princess-park.jpeg",
+          "gallery": [],
+          "features": [
+            "Servant Room",
+            "4 Toilets"
+          ],
+          "description": "3 BHK plus servant apartment with 4 toilets located in Sector 6."
+        },
+        {
+          "id": 202,
+          "title": "Din",
+          "price": "₹2.95 Cr",
+          "location": "Sector 4, Dwarka, Delhi",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": "On Request",
+          "type": "Sale",
+          "status": "Available",
+          "image": "dwarka-pro/Din/main-din.jpeg",
+          "gallery": [],
+          "features": [
+            "3 Toilets"
+          ],
+          "description": "3 BHK apartment with 3 toilets in Sector 4."
+        },
+        {
+          "id": 203,
+          "title": "Prabhavi",
+          "price": "₹3.68 Cr",
+          "location": "Sector 10, Dwarka, Delhi",
+          "bedrooms": 4,
+          "bathrooms": 3,
+          "area": "On Request",
+          "type": "Sale",
+          "status": "Available",
+          "image": "dwarka-pro/Prabhavi/main-prabhavi.jpeg",
+          "gallery": [],
+          "features": [
+            "3 Toilets"
+          ],
+          "description": "4 BHK apartment with 3 toilets located in Sector 10."
+        },
+        {
+          "id": 204,
+          "title": "Udyog Vihar",
+          "price": "₹3.50 Cr",
+          "location": "Sector 22, Dwarka, Delhi",
+          "bedrooms": 3,
+          "bathrooms": 4,
+          "area": "On Request",
+          "type": "Sale",
+          "status": "Available",
+          "image": "dwarka-pro/UdyogVihar/main-udyog-vihar.jpeg",
+          "gallery": [],
+          "features": [
+            "Servant Room",
+            "4 Toilets"
+          ],
+          "description": "3 BHK plus servant apartment with 4 toilets in Sector 22."
+        },
+        {
+          "id": 205,
+          "title": "Dreams",
+          "price": "₹2.80 Cr",
+          "location": "Sector 22, Dwarka, Delhi",
+          "bedrooms": 3,
+          "bathrooms": 2,
+          "area": "On Request",
+          "type": "Sale",
+          "status": "Available",
+          "image": "dwarka-pro/Dreams/main-dreams.jpeg",
+          "gallery": [],
+          "features": [
+            "2 Toilets"
+          ],
+          "description": "3 BHK apartment with 2 toilets located in Sector 22."
+        },
+        {
+          "id": 206,
+          "title": "New Jyoti",
+          "price": "₹2.75 Cr",
+          "location": "Sector 4, Dwarka, Delhi",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": "On Request",
+          "type": "Sale",
+          "status": "Available",
+          "image": "dwarka-pro/NewJyoti/main-new-jyoti.jpeg",
+          "gallery": [],
+          "features": [
+            "3 Toilets"
+          ],
+          "description": "3 BHK apartment with 3 toilets in Sector 4."
+        },
+        {
+          "id": 207,
+          "title": "Samrat Ashoka",
+          "price": "₹2.95 Cr",
+          "location": "Sector 18, Dwarka, Delhi",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": "On Request",
+          "type": "Sale",
+          "status": "Available",
+          "image": "dwarka-pro/SamratAshoka/main-samrat-ashoka.jpeg",
+          "gallery": [],
+          "features": [
+            "3 Toilets"
+          ],
+          "description": "3 BHK apartment with 3 toilets located in Sector 18."
+        },
+        {
+          "id": 208,
+          "title": "Satyam",
+          "price": "₹3.15 Cr",
+          "location": "Sector 18, Dwarka, Delhi",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": "On Request",
+          "type": "Sale",
+          "status": "Available",
+          "image": "dwarka-pro/Satyam/main-satyam.jpeg",
+          "gallery": [],
+          "features": [
+            "3 Toilets"
+          ],
+          "description": "3 BHK apartment with 3 toilets in Sector 18."
+        },
+        {
+          "id": 209,
+          "title": "Sukh Sagar",
+          "price": "₹3.10 Cr",
+          "location": "Sector 9, Dwarka, Delhi",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": "On Request",
+          "type": "Sale",
+          "status": "Available",
+          "image": "dwarka-pro/BestParadise/main-best-paradis.jpeg",
+          "gallery": [],
+          "features": [
+            "3 Toilets"
+          ],
+          "description": "3 BHK apartment with 3 toilets in Sector 9."
+        },
+        
+        {
+          "id": 213,
+          "title": "Palm Court",
+          "price": "₹2.85 Cr",
+          "location": "Sector 19, Dwarka, Delhi",
+          "bedrooms": 3,
+          "bathrooms": 0,
+          "area": "On Request",
+          "type": "Sale",
+          "status": "Available",
+          "image": "dwarka-pro/BestParadise/main-best-para.jpeg",
+          "gallery": [],
+          "features": [
+            "Store Room"
+          ],
+          "description": "3 BHK plus store apartment located in Sector 19."
+        },
+        {
+          "id": 214,
+          "title": "Sant Sunder Dass",
+          "price": "₹3.80 Cr",
+          "location": "Sector 12, Dwarka, Delhi",
+          "bedrooms": 4,
+          "bathrooms": 0,
+          "area": "On Request",
+          "type": "Sale",
+          "status": "Available",
+          "image": "dwarka-pro/SantSunderDass/main-sant-sunder-dass.jpeg",
+          "gallery": [],
+          "features": [],
+          "description": "4 BHK apartment located in Sector 12."
+        },
+        {
+          "id": 215,
+          "title": "Param Puneet",
+          "price": "₹4.25 Cr",
+          "location": "Sector 6, Dwarka, Delhi",
+          "bedrooms": 4,
+          "bathrooms": 0,
+          "area": "On Request",
+          "type": "Sale",
+          "status": "Available",
+          "image": "dwarka-pro/ParamPuneet/main-param-puneet.jpeg",
+          "gallery": [],
+          "features": [],
+          "description": "4 BHK apartment located in Sector 6."
+        }
+      ]
+    },
+    {
+      "id": "dwarkaApartments",
+      "title": "Dwarka Expressway Projects",
+      "description": "Handpicked premium properties on Dwarka Expressway",
+      "items": [
+        {
+          "id": 101,
+          "title": "M3M Capital - Luxury 3/4 BHK Apartments",
+          "price": "₹2.2 Cr Onwards",
+          "location": "Sector 113, Dwarka Expressway, Gurgaon",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": "1665 - 2298 sq.ft",
+          "type": "Sale",
+          "status": "New Launch",
+          "image": "/dwarka-pro/M3MCapital/main-m3m-capital.jpeg",
+          "gallery": [],
+          "features": [
+            "Clubhouse",
+            "Swimming Pool",
+            "Gym",
+            "24/7 Security",
+            "Kids Play Area"
+          ],
+          "description": "Premium high-rise residences located on prime Dwarka Expressway location with modern lifestyle amenities."
+        },
+        {
+          "id": 102,
+          "title": "Godrej Meridian - Premium Apartments",
+          "price": "₹1.9 Cr Onwards",
+          "location": "Sector 106, Dwarka Expressway, Gurgaon",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": "1366 - 2720 sq.ft",
+          "type": "Sale",
+          "status": "Ready to Move",
+          "image": "/dwarka-pro/GodrejMeridian/main-godrej-meridian.jpeg",
+          "gallery": [],
+          "features": [
+            "Resort Style Pool",
+            "Clubhouse",
+            "Landscape Gardens",
+            "Sports Area"
+          ],
+          "description": "Luxury living with resort-style amenities and seamless connectivity to Delhi and IGI Airport."
+        },
+        {
+          "id": 103,
+          "title": "ATS Triumph - Luxury Residences",
+          "price": "₹2.5 Cr Onwards",
+          "location": "Sector 104, Dwarka Expressway, Gurgaon",
+          "bedrooms": 3,
+          "bathrooms": 4,
+          "area": "2290 - 3150 sq.ft",
+          "type": "Sale",
+          "status": "Premium",
+          "image": "/dwarka-pro/ATS-Triumph/main-ats-triumph.jpeg",
+          "gallery": [],
+          "features": [
+            "Large Balconies",
+            "Clubhouse",
+            "Swimming Pool",
+            "Jogging Track"
+          ],
+          "description": "Spacious luxury apartments with world-class construction quality by ATS."
+        },
+        {
+          "id": 104,
+          "title": "Shapoorji Pallonji Joyville",
+          "price": "₹1.2 Cr Onwards",
+          "location": "Sector 102, Dwarka Expressway, Gurgaon",
+          "bedrooms": 2,
+          "bathrooms": 2,
+          "area": "915 - 1360 sq.ft",
+          "type": "Sale",
+          "status": "Hot Deal",
+          "image": "/dwarka-pro/ShapoorjiPallonjiJoyville/main-shapoorji-pallonji-joyville.jpeg",
+          "gallery": [],
+          "features": [
+            "Podium Garden",
+            "Clubhouse",
+            "Kids Zone",
+            "Security"
+          ],
+          "description": "Affordable luxury apartments with premium lifestyle amenities on Dwarka Expressway."
+        },
+        {
+          "id": 105,
+          "title": "Adani Oyster Grande",
+          "price": "₹2.1 Cr Onwards",
+          "location": "Sector 102, Dwarka Expressway, Gurgaon",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": "1689 - 3188 sq.ft",
+          "type": "Sale",
+          "status": "Ready to Move",
+          "image": "/dwarka-pro/AdaniOysterGrande/main-adani-oyster-grande.jpeg",
+          "gallery": [],
+          "features": [
+            "Luxury Clubhouse",
+            "Swimming Pool",
+            "Gym",
+            "Multi-tier Security"
+          ],
+          "description": "Ultra-luxury apartments offering elegant lifestyle and premium construction quality."
+        },
+        {
+          "id": 101,
+          "title": "M3M Capital - Luxury Apartments",
+          "price": "₹3.30 Cr Onwards (Est.)",
+          "location": "Sector 113, Dwarka Expressway, Gurugram, Haryana",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": "1665 - 2298 sq.ft",
+          "type": "Sale",
+          "status": "New Launch",
+          "image": "/dwarka-pro/M3MCapital/main-m3m-capital.jpeg",
+          "gallery": [],
+          "features": [
+            "Golf Theme Greens",
+            "Clubhouse",
+            "Gym",
+            "Kids Play Area",
+            "Security"
+          ],
+          "description": "Premium luxury residences on Dwarka Expressway featuring modern amenities and strategic connectivity to IGI Airport and key Gurgaon hubs."
+        },
+        {
+          "id": 106,
+          "title": "M3M Crown",
+          "price": "₹3.30 Cr Onwards (Est.)",
+          "location": "Sector 111, Dwarka Expressway, Gurugram, Haryana",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": "1605 - 3450 sq.ft",
+          "type": "Sale",
+          "status": "Under Construction",
+          "image": "/dwarka-pro/M3MCrown/main-m3m-crown.jpeg",
+          "gallery": [],
+          "features": [
+            "Clubhouse",
+            "Swimming Pool",
+            "Landscaped Gardens",
+            "Jogging Track"
+          ],
+          "description": "Ultra-luxury high-rise residential project in Sector 111 offering well-planned 3–4.5 BHK homes with modern lifestyle amenities."
+        },
+        {
+          "id": 107,
+          "title": "M3M Elie Saab Residences",
+          "price": "₹12 Cr Onwards (Est.)",
+          "location": "At Crown, Sector 111, Dwarka Expressway, Gurugram, Haryana",
+          "bedrooms": 4,
+          "bathrooms": 4,
+          "area": "4200 - 4650 sq.ft",
+          "type": "Sale",
+          "status": "Premium",
+          "image": "/dwarka-pro/M3MElieSaabResidences/main-m3m-elie-saab-residences.jpeg",
+          "gallery": [],
+          "features": [
+            "Designer Interiors",
+            "Sky Deck",
+            "Luxury Club Lounge"
+          ],
+          "description": "Signature luxury residences developed in collaboration with haute couture brand Elie Saab, offering spacious layouts and premium finishes."
+        },
+        {
+          "id": 102,
+          "title": "Godrej Meridian",
+          "price": "₹3.15 Cr Onwards (Est.)",
+          "location": "Sector 106, Dwarka Expressway, Gurugram, Haryana",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": "1855 - 2720 sq.ft",
+          "type": "Sale",
+          "status": "Under Construction",
+          "image": "/dwarka-pro/GodrejMeridian/main-godrej-meridian.jpeg",
+          "gallery": [],
+          "features": [
+            "Infinity Pool",
+            "Clubhouse",
+            "Concierge Services",
+            "Landscaped Area"
+          ],
+          "description": "Luxury homes with premium amenities, excellent connectivity, and proximity to diplomatic enclaves and IGI Airport."
+        },
+        {
+          "id": 108,
+          "title": "Godrej Summit",
+          "price": "₹2.80 Cr Onwards (Est.)",
+          "location": "Sector 104, Dwarka Expressway, Gurugram, Haryana",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": "Approx. 1446 - 2692 sq.ft",
+          "type": "Sale",
+          "status": "Upcoming",
+          "image": "/dwarka-pro/GodrejSummit/main-godrej-summit.jpeg",
+          "gallery": [],
+          "features": [
+            "Clubhouse",
+            "Green Spaces",
+            "Security"
+          ],
+          "description": "Premium residential project by Godrej Properties featuring thoughtfully designed homes in Sector 104."
+        },
+        {
+          "id": 115,
+          "title": "Experion The Heartsong",
+          "price": "₹1.40 Cr - ₹2.40 Cr (Est.)",
+          "location": "Sector 108, Dwarka Expressway, Gurugram, Haryana",
+          "bedrooms": 2,
+          "bathrooms": 2,
+          "area": "1283 - 4801 sq.ft",
+          "type": "Sale",
+          "status": "Ready to Move",
+          "image": "/dwarka-pro/ExperionTheHeartsong/main-experion-the-heartsong.jpeg",
+          "gallery": [],
+          "features": [
+            "Clubhouse",
+            "Landscaped Gardens",
+            "Jogging Path",
+            "Security"
+          ],
+          "description": "Well-established residential project in Sector 108 with a range of apartment sizes and modern amenities."
+        },
+        {
+          "id": 109,
+          "title": "ATS Triumph",
+          "price": "₹2.50 Cr Onwards (Est.)",
+          "location": "Sector 104, Dwarka Expressway, Gurugram, Haryana",
+          "bedrooms": 3,
+          "bathrooms": 4,
+          "area": "2290 - 3150 sq.ft",
+          "type": "Sale",
+          "status": "Premium",
+          "image": "/dwarka-pro/ATS-Triumph/main-ats-triumph.jpeg",
+          "gallery": [],
+          "features": [
+            "Clubhouse",
+            "Pool",
+            "Jogging Track"
+          ],
+          "description": "Spacious luxury residences from ATS with world-class construction quality."
+        },
+        {
+          "id": 104,
+          "title": "Shapoorji Pallonji Joyville",
+          "price": "₹1.2 Cr Onwards",
+          "location": "Sector 102, Dwarka Expressway, Gurugram, Haryana",
+          "bedrooms": 2,
+          "bathrooms": 2,
+          "area": "915 - 1360 sq.ft",
+          "type": "Sale",
+          "status": "Hot Deal",
+          "image": "/dwarka-pro/ShapoorjiPallonjiJoyville/main-shapoorji-pallonji-joyville.jpeg",
+          "gallery": [],
+          "features": [
+            "Podium Garden",
+            "Clubhouse",
+            "Kids Zone"
+          ],
+          "description": "Affordable luxury apartments with premium lifestyle amenities."
+        },
+        {
+          "id": 110,
+          "title": "Adani Oyster Grande",
+          "price": "₹2.1 Cr Onwards (Est.)",
+          "location": "Sector 102, Dwarka Expressway, Gurugram, Haryana",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": "1689 - 3188 sq.ft",
+          "type": "Sale",
+          "status": "Ready to Move",
+          "image": "/dwarka-pro/AdaniOysterGrande/main-adani-oyster-grande.jpeg",
+          "gallery": [],
+          "features": [
+            "Luxury Clubhouse",
+            "Gym",
+            "Pool"
+          ],
+          "description": "Ultra-luxury residences with elegant design and premium amenities."
+        },
+        {
+          "id": 111,
+          "title": "Indiabulls Enigma",
+          "price": "₹2.49 Cr - ₹5.20 Cr (Est.)",
+          "location": "Sector 110A, Dwarka Expressway, Gurugram, Haryana",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": "3340 - 6950 sq.ft",
+          "type": "Sale",
+          "status": "New Launch",
+          "image": "/dwarka-pro/IndiabullsEnigma/main-indiabulls-enigma.jpeg",
+          "gallery": [],
+          "features": [
+            "Clubhouse",
+            "Sports Zone",
+            "Security"
+          ],
+          "description": "Spacious luxury apartments with advanced amenities by Indiabulls."
+        },
+        {
+          "id": 112,
+          "title": "Centra Park Project",
+          "price": "₹2.00 Cr Onwards (Est.)",
+          "location": "Sector 104, Dwarka Expressway, Gurugram, Haryana",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": "2500+ sq.ft (Est.)",
+          "type": "Sale",
+          "status": "New Launch",
+          "image": "/dwarka-pro/CentraParkProject/main-centra-park-project.jpeg",
+          "gallery": [],
+          "features": [
+            "Green Areas",
+            "Clubhouse"
+          ],
+          "description": "Luxury residential project by Central Park with modern amenities and premium layout."
+        },
+        {
+          "id": 113,
+          "title": "Shobha International City",
+          "price": "₹8.50 Cr Onwards (Est.)",
+          "location": "Sector 109, Dwarka Expressway, Gurugram, Haryana",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": "3200 - 7330 sq.ft",
+          "type": "Sale",
+          "status": "Luxury",
+          "image": "/dwarka-pro/ShobhaInternationalCity/main-shobha-international-city.jpeg",
+          "gallery": [],
+          "features": [
+            "Low-Density Homes",
+            "European Design",
+            "Private Lawns"
+          ],
+          "description": "Villa-style luxury community with elite amenities."
+        },
+        {
+          "id": 114,
+          "title": "BPTP Imperial Garden",
+          "price": "₹2.00 Cr Onwards (Est.)",
+          "location": "Near Sector 104/37D, Dwarka Expressway, Gurugram, Haryana",
+          "bedrooms": 3,
+          "bathrooms": 3,
+          "area": "2400+ sq.ft (Est.)",
+          "type": "Sale",
+          "status": "Developing",
+          "image": "/dwarka-pro/BPTPImperialGarden/main-bptp-imperial-garden.jpeg",
+          "gallery": [],
+          "features": [
+            "Clubhouse",
+            "Large Greens"
+          ],
+          "description": "Residential development by BPTP offering well-planned homes near the expressway."
+        }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Rahul Sharma",
+      "role": "Home Buyer",
+      "content": "GAIN Realstate helped me find my dream home within budget. Their team is extremely professional and supportive.",
+      "rating": 5,
+      "image": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Priya Patel",
+      "role": "Investor",
+      "content": "Best real estate agency in town. They provided excellent investment options with great returns.",
+      "rating": 5,
+      "image": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Amit Verma",
+      "role": "Tenant",
+      "content": "I had a wonderful experience renting through GAIN Realstate. The process was smooth and hassle-free.",
+      "rating": 4,
+      "image": "https://randomuser.me/api/portraits/men/56.jpg"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "title": "Property Sales",
+      "description": "Find your perfect home with our extensive property listings",
+      "icon": "🏠",
+      "color": "from-blue-500 to-blue-600"
+    },
+    {
+      "id": 2,
+      "title": "Rental Services",
+      "description": "Premium rental properties for every budget and need",
+      "icon": "🔑",
+      "color": "from-green-500 to-green-600"
+    },
+    {
+      "id": 3,
+      "title": "Property Management",
+      "description": "Complete property management solutions for owners",
+      "icon": "📊",
+      "color": "from-purple-500 to-purple-600"
+    },
+    {
+      "id": 4,
+      "title": "Legal Assistance",
+      "description": "Expert legal guidance for all property transactions",
+      "icon": "⚖️",
+      "color": "from-red-500 to-red-600"
+    }
+  ],
+  "company": {
+    "name": "GAIN Realstate Consultants",
+    "phone": "+91 9891902115,  +91 9111002323",
+    "email": "gainrealestate1@gmail.com",
+    "address": " Office adress-  Flat 53, Sec-9, Pocket-1, Dwarka, New Delhi",
+    "social": {
+      "facebook": "https://www.facebook.com/profile.php?id=61587206970802",
+      "twitter": "#",
+      "instagram": "https://www.instagram.com/gainrealestate?igsh=bXc0amZuMTl6bzV0",
+      "linkedin": "https://www.linkedin.com/in/neeraj-arora-92708a3b1",
+      "pinterest": "https://in.pinterest.com/gainrealestate1",
+      "youtube": "https://www.youtube.com/@Gainrealestate"
+    }
+  }
+}

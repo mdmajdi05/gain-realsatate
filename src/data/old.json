@@ -1,0 +1,79 @@
+{
+    "id": 2,
+    "title": "Modern 2BHK Villa with Garden",
+    "price": "₹75 Lacs",
+    "location": "Gurgaon Sector 56",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": "1350 sq.ft",
+    "type": "Sale",
+    "status": "New Launch",
+    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3",
+    "gallery": [],
+    "features": [
+        "Garden",
+        "Parking",
+        "Modular Kitchen"
+    ],
+    "description": "Perfect family home with modern amenities"
+},
+{
+    "id": 4,
+    "title": "Spacious 4BHK Penthouse",
+    "price": "₹3.5 Cr",
+    "location": "South Delhi",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "area": "3500 sq.ft",
+    "type": "Sale",
+    "status": "Premium",
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/759474774.jpg?k=73823b85ac1cda28714b707708e85fdad9532937342344a8c91638349109f3a3&o=",
+    "gallery": [],
+    "features": [
+        "Private Terrace",
+        "Jacuzzi",
+        "Home Theater"
+    ],
+    "description": "Luxurious penthouse with top-notch amenities"
+},
+{
+    "id": 3,
+    "title": "Premium Office Space",
+    "price": "₹45,000/month",
+    "location": "Bandra Kurla Complex, Mumbai",
+    "area": "950 sq.ft",
+    "type": "Rent",
+    "status": "Premium",
+    "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3",
+    "gallery": [],
+    "features": [
+        "Conference Room",
+        "Cafeteria",
+        "Parking"
+    ],
+    "description": "Prime location office space for modern businesses"
+},
+{
+    "id": 1,
+    "title": "Luxury 3BHK Sea View Apartment",
+    "price": "₹1.8 Cr",
+    "oldPrice": "₹2.1 Cr",
+    "location": "Worli, Mumbai",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area": "1850 sq.ft",
+    "type": "Sale",
+    "status": "Hot Deal",
+    "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3",
+    "gallery": [
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+        "https://images.unsplash.com/photo-1523217582562-09d0def993a6"
+    ],
+    "features": [
+        "Swimming Pool",
+        "Gym",
+        "Club House",
+        "24/7 Security"
+    ],
+    "description": "Experience luxury living with panoramic sea views"
+}

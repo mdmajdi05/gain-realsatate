@@ -1,0 +1,33 @@
+{
+  "navLinks": [
+    { "label": "Home", "href": "/" },
+    { "label": "Properties", "href": "/listings" },
+    { "label": "About", "href": "/about" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "quickLinks": [
+    
+      
+        { "label": "About Us", "href": "/about" },
+        {"label": "Properties", "href": "/listings" },
+        { "label": "Services", "href": "/services" },
+        {"label": "About", "href": "/about" },
+        { "label": "Contact", "href": "/contact" }
+      
+    ],
+                     
+  "footerLinks": [
+    { "label": "Home", "href": "/" },
+    { "label": "Properties", "href": "/listings" },
+    { "label": "Services", "href": "/services" },
+    { "label": "About", "href": "/about" },
+    { "label": "Contact", "href": "/contact" },
+    { "label": "Privacy Policy", "href": "/privacy" },
+    { "label": "Terms of Service", "href": "/terms" },
+    { "label": "Sitemap", "href": "/sitemap" }
+  ],
+  "developer": {
+    "name": "Majdi",
+    "href": "https://majdi-portfolio.vercel.app/"
+  }
+}
