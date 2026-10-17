@@ -94,42 +94,33 @@ const VideoStoriesSection = ({ stories = [] }) => {
 
   const storyData = stories.length > 0 ? stories : defaultStories;
 
-  // FIX 1: Simple thumbnail loader
+  // Lazy-load thumbnail videos only when they enter the viewport.
+  // This prevents every (potentially multi-MB) video from downloading on page load.
   useEffect(() => {
-    // Sirf visible thumbnails load karo
-    const loadVisibleThumbnails = () => {
-      thumbnailRefs.current.forEach((ref, index) => {
-        if (!ref) return;
-        
-        const rect = ref.getBoundingClientRect();
-        const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
-        
-        if (isVisible) {
-          const video = ref.querySelector('video');
-          if (video && !video.src) {
-            video.src = storyData[index].thumbnail;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+
+          const video = entry.target.querySelector('video');
+          if (video && !video.src && entry.target.dataset.thumbnail) {
+            video.src = entry.target.dataset.thumbnail;
             video.load();
             video.play().catch(() => {}); // Muted autoplay
           }
-        }
-      });
-    };
 
-    // Load on mount
-    loadVisibleThumbnails();
+          // Once loaded (or already loaded), no need to keep observing.
+          observer.unobserve(entry.target);
+        });
+      },
+      { rootMargin: '150px' }
+    );
 
-    // Load on scroll (throttled)
-    let timeout;
-    const handleScroll = () => {
-      clearTimeout(timeout);
-      timeout = setTimeout(loadVisibleThumbnails, 100);
-    };
+    thumbnailRefs.current.forEach((el) => {
+      if (el) observer.observe(el);
+    });
 
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-      clearTimeout(timeout);
-    };
+    return () => observer.disconnect();
   }, [storyData, showAllThumbnails]);
 
   // FIX 2: Simple progress bar
@@ -264,7 +255,7 @@ const VideoStoriesSection = ({ stories = [] }) => {
                 autoPlay
                 playsInline
                 muted
-                preload="auto"
+                preload="metadata"
               />
 
               {/* Gradient Overlay */}
@@ -379,6 +370,7 @@ const VideoStoriesSection = ({ stories = [] }) => {
                 <div
                   key={story.id}
                   ref={el => thumbnailRefs.current[index] = el}
+                  data-thumbnail={story.thumbnail}
                   onClick={() => handleStorySelect(index)}
                   className={`flex-shrink-0 relative rounded-xl overflow-hidden transition-all duration-300 cursor-pointer ${
                     activeStory === index 
@@ -388,14 +380,13 @@ const VideoStoriesSection = ({ stories = [] }) => {
                   style={{ width: '80px' }}
                 >
                   <div className="aspect-[4/5] bg-gray-900">
-                    {/* Thumbnail Video */}
+                    {/* Thumbnail Video - src is attached lazily by IntersectionObserver */}
                     <video
-                      src={story.thumbnail}
                       className="absolute inset-0 w-full h-full object-cover"
                       loop
                       muted
                       playsInline
-                      preload="metadata"
+                      preload="none"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
                     <div className="absolute bottom-1 left-1 right-1">
