@@ -13,9 +13,9 @@ const Home = () => {
   return (
     <div>
       <Hero />
-      
+
       {/* render each configured section using generic slider */}
-      {/* {propertiesData.sections.map((sec) => (
+      {propertiesData.sections.map((sec) => (
         <SectionSlider key={sec.id} section={sec} />
       ))}
       <Services services={propertiesData.services} />
@@ -24,7 +24,7 @@ const Home = () => {
       <VideoStorySection />
       <FAQ />
       <Newsletter />
-      <Stats /> */}
+      <Stats />
     </div>
   );
 };

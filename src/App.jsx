@@ -155,7 +155,7 @@ function App() {
             </Suspense>
           </main>
 
-          {/* <FooterEnhanced company={propertiesData.company} /> */}
+          <FooterEnhanced company={propertiesData.company} />
         </div>
       </BrowserRouter>
       // <h2 className='flex items-center justify-center p-4 bg-red-100 text-red-700'>
