@@ -374,7 +374,6 @@ const VideoStoriesSection = ({ stories = [] }) => {
             <div 
               ref={scrollContainerRef}
               className="flex gap-3 overflow-x-auto scrollbar-hide px-2 py-2"
-              style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
             >
               {storyData.slice(0, showAllThumbnails ? storyData.length : 8).map((story, index) => (
                 <div
@@ -470,12 +469,6 @@ const VideoStoriesSection = ({ stories = [] }) => {
           ))}
         </div>
       </div>
-
-      <style jsx>{`
-        .scrollbar-hide::-webkit-scrollbar {
-          display: none;
-        }
-      `}</style>
     </div>
   );
 };
