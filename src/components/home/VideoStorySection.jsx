@@ -8,7 +8,6 @@ const VideoStoriesSection = ({ stories = [] }) => {
   
   const mainVideoRef = useRef(null);
   const scrollContainerRef = useRef(null);
-  const thumbnailRefs = useRef([]);
   const intervalRef = useRef(null);
 
   // Default stories
@@ -19,7 +18,7 @@ const VideoStoriesSection = ({ stories = [] }) => {
       title: "Modern Villa",
       brand: "Room 360",
       videoUrl: "/videos/1.mp4",
-      thumbnail: "/videos/1.mp4",
+      thumbnail: "/videos/thumbs/1.jpg",
       location: "Dubai",
       price: "$2.5M",
       duration: 15
@@ -30,7 +29,7 @@ const VideoStoriesSection = ({ stories = [] }) => {
       title: "Sea View Apartment",
       brand: "Room 360",
       videoUrl: "/videos/2.mp4",
-      thumbnail: "/videos/2.mp4",
+      thumbnail: "/videos/thumbs/2.jpg",
       location: "Miami",
       price: "$850K",
       duration: 12
@@ -41,7 +40,7 @@ const VideoStoriesSection = ({ stories = [] }) => {
       title: "Sky Penthouse",
       brand: "Room 360",
       videoUrl: "/videos/3.mp4",
-      thumbnail: "/videos/3.mp4",
+      thumbnail: "/videos/thumbs/3.jpg",
       location: "New York",
       price: "$5.2M",
       duration: 10
@@ -52,7 +51,7 @@ const VideoStoriesSection = ({ stories = [] }) => {
       title: "Oceanfront Villa",
       brand: "Room 360",
       videoUrl: "/videos/4.mp4",
-      thumbnail: "/videos/4.mp4",
+      thumbnail: "/videos/thumbs/4.jpg",
       location: "Malibu",
       price: "$3.8M",
       duration: 15
@@ -63,7 +62,7 @@ const VideoStoriesSection = ({ stories = [] }) => {
       title: "Smart Home",
       brand: "Room 360",
       videoUrl: "/videos/5.mp4",
-      thumbnail: "/videos/5.mp4",
+      thumbnail: "/videos/thumbs/5.jpg",
       location: "Austin",
       price: "$1.2M",
       duration: 12
@@ -74,7 +73,7 @@ const VideoStoriesSection = ({ stories = [] }) => {
       title: "Luxury Duplex",
       brand: "Room 360",
       videoUrl: "/videos/6.mp4",
-      thumbnail: "/videos/6.mp4",
+      thumbnail: "/videos/thumbs/6.jpg",
       location: "London",
       price: "$2.1M",
       duration: 10
@@ -85,7 +84,7 @@ const VideoStoriesSection = ({ stories = [] }) => {
       title: "Office Space",
       brand: "Room 360",
       videoUrl: "/videos/7.mp4",
-      thumbnail: "/videos/7.mp4",
+      thumbnail: "/videos/thumbs/7.jpg",
       location: "San Francisco",
       price: "$4.5M",
       duration: 12
@@ -93,35 +92,6 @@ const VideoStoriesSection = ({ stories = [] }) => {
   ], []);
 
   const storyData = stories.length > 0 ? stories : defaultStories;
-
-  // Lazy-load thumbnail videos only when they enter the viewport.
-  // This prevents every (potentially multi-MB) video from downloading on page load.
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (!entry.isIntersecting) return;
-
-          const video = entry.target.querySelector('video');
-          if (video && !video.src && entry.target.dataset.thumbnail) {
-            video.src = entry.target.dataset.thumbnail;
-            video.load();
-            video.play().catch(() => {}); // Muted autoplay
-          }
-
-          // Once loaded (or already loaded), no need to keep observing.
-          observer.unobserve(entry.target);
-        });
-      },
-      { rootMargin: '150px' }
-    );
-
-    thumbnailRefs.current.forEach((el) => {
-      if (el) observer.observe(el);
-    });
-
-    return () => observer.disconnect();
-  }, [storyData, showAllThumbnails]);
 
   // FIX 2: Simple progress bar
   useEffect(() => {
@@ -369,8 +339,6 @@ const VideoStoriesSection = ({ stories = [] }) => {
               {storyData.slice(0, showAllThumbnails ? storyData.length : 8).map((story, index) => (
                 <div
                   key={story.id}
-                  ref={el => thumbnailRefs.current[index] = el}
-                  data-thumbnail={story.thumbnail}
                   onClick={() => handleStorySelect(index)}
                   className={`flex-shrink-0 relative rounded-xl overflow-hidden transition-all duration-300 cursor-pointer ${
                     activeStory === index 
@@ -380,13 +348,13 @@ const VideoStoriesSection = ({ stories = [] }) => {
                   style={{ width: '80px' }}
                 >
                   <div className="aspect-[4/5] bg-gray-900">
-                    {/* Thumbnail Video - src is attached lazily by IntersectionObserver */}
-                    <video
+                    {/* Thumbnail Image - lightweight poster frame (no video download) */}
+                    <img
+                      src={story.thumbnail}
+                      alt={story.title}
+                      loading="lazy"
+                      decoding="async"
                       className="absolute inset-0 w-full h-full object-cover"
-                      loop
-                      muted
-                      playsInline
-                      preload="none"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
                     <div className="absolute bottom-1 left-1 right-1">
